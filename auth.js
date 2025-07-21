@@ -92,7 +92,7 @@ function showPermanentExpiryMessage() {
     profile.innerHTML = `
 <div style="width:100px; height:100px; border-radius:50%; border:3px solid #4CAF50; overflow:hidden; display:flex; align-items:flex-start; justify-content:center; margin: 0 auto;">
   <img src="./img/profilepic.jpg" 
-       style="width:120px; height:120px; object-fit:none; object-position:top center;">
+       style="width:120px; height:120px; object-fit:none; overflow:visible; object-position:top center;">
 </div>
 
 
@@ -575,11 +575,11 @@ function showProjectInfo() {
     infoPanel.style.fontSize = '14px';
 
     infoPanel.innerHTML = `
-        <div style="display: flex; align-items: center; margin-bottom: 10px;">
-            <img src="https://avatars.githubusercontent.com/u/12345678?v=4" 
-                 style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;" 
-                 alt="Hemant Borana">
-            <div>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;overflow: visible;">
+  <img src="./img/profilepic.jpg" 
+       style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;" 
+       alt="Hemant Borana">
+  <div>
                 <strong>Hemant Borana</strong><br>
                 Project Designer & Admin
             </div>
