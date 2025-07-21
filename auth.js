@@ -92,7 +92,7 @@ function showPermanentExpiryMessage() {
     profile.innerHTML = `
 <div style="width:100px; height:100px; border-radius:50%; border:3px solid #4CAF50; overflow:hidden; display:flex; align-items:flex-start; justify-content:center; margin: 0 auto;">
   <img src="./img/profilepic.jpg" 
-       style="width:100px; height:100px; object-fit:cover; margin-top:10px;">
+       style="width:100px; height:100px; object-fit:cover; object-position:top; margin-top:10px;">
 </div>
 
 
