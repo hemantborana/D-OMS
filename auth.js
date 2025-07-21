@@ -466,9 +466,8 @@ async function getDemoSession(fingerprint) {
 // Start a new demo session
 async function startNewDemoSession(username, fingerprint) {
     const now = Date.now();
-    const expires = now + (5 * 60 * 1000); // 5 minutes demo period (changed from 30 seconds)
+    const expires = now + (5 * 60 * 1000); // 5 minutes (300,000 ms) ✅
 
-    // Store device info in Firebase (regardless of username)
     await firebase.database().ref('demoDevices').child(fingerprint).set({
         firstUsername: username,
         firstAccess: now,
@@ -477,21 +476,18 @@ async function startNewDemoSession(username, fingerprint) {
         status: 'active',
         userAgent: navigator.userAgent,
         screenResolution: `${screen.width}x${screen.height}`,
-        ip: '' // Can be populated from a backend service
+        ip: ''
     });
 
-    // Store in localStorage for session resumption
     localStorage.setItem('demoSession', JSON.stringify({
         fingerprint: fingerprint,
         expires: expires
     }));
 
-    // Start the timer
     startDemoTimer(expires);
     document.getElementById('userNameDisplay').textContent = username + ' (Demo)';
-    showToast('Demo session started. You have 5 minutes of access.'); // Updated message
+    showToast('Demo session started. You have 5 minutes of access.'); // Updated message ✅
 }
-
 // Start the demo timer
 function startDemoTimer(expires) {
     const timerElement = document.createElement('div');
@@ -508,30 +504,26 @@ function startDemoTimer(expires) {
     timerElement.style.fontSize = '16px';
     document.body.appendChild(timerElement);
     
-    function updateTimer() {
-        const now = Date.now();
-        const remaining = expires - now;
+  function updateTimer() {
+        const remaining = expires - Date.now();
         
         if (remaining <= 0) {
             timerElement.textContent = 'Demo expired!';
             timerElement.style.backgroundColor = 'rgba(255,0,0,0.7)';
-            
-            // Get fingerprint from local storage
-            const sessionData = JSON.parse(localStorage.getItem('demoSession') || '{}');
-            if (sessionData.fingerprint) {
-                showPermanentExpiryMessage();
-            }
+            showPermanentExpiryMessage();
             return;
         }
-        
-        // Convert to minutes and seconds
+
         const minutes = Math.floor(remaining / 60000);
         const seconds = Math.floor((remaining % 60000) / 1000);
         timerElement.textContent = `Demo: ${minutes}m ${seconds}s remaining`;
+        
+        // Change color to orange when 1 minute remains (60,000 ms) ✅
         timerElement.style.backgroundColor = remaining < 60000 ? 'rgba(255,165,0,0.7)' : 'rgba(0,0,0,0.7)';
         
         requestAnimationFrame(updateTimer);
     }
+
     
     updateTimer();
 }
