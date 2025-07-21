@@ -345,12 +345,11 @@ function handleContactFormSubmit() {
         });
 }
 
-
 function formatTime(ms) {
+    const minutes = Math.floor(ms / 60000);
     const seconds = Math.floor((ms % 60000) / 1000);
-    return `${seconds}s`;
+    return `${minutes}m ${seconds}s`;
 }
-
 
 
 // Generate a device fingerprint
@@ -464,11 +463,10 @@ async function getDemoSession(fingerprint) {
     };
 }
 
-
 // Start a new demo session
 async function startNewDemoSession(username, fingerprint) {
     const now = Date.now();
-    const expires = now + (30 *30 * 1000); // 30 seconds demo period
+    const expires = now + (5 * 60 * 1000); // 5 minutes demo period (changed from 30 seconds)
 
     // Store device info in Firebase (regardless of username)
     await firebase.database().ref('demoDevices').child(fingerprint).set({
@@ -491,12 +489,8 @@ async function startNewDemoSession(username, fingerprint) {
     // Start the timer
     startDemoTimer(expires);
     document.getElementById('userNameDisplay').textContent = username + ' (Demo)';
-    showToast('Demo session started. You have 30 seconds of access.');
+    showToast('Demo session started. You have 5 minutes of access.'); // Updated message
 }
-
-
-
-
 
 // Start the demo timer
 function startDemoTimer(expires) {
@@ -530,16 +524,17 @@ function startDemoTimer(expires) {
             return;
         }
         
-        const seconds = Math.floor(remaining / 1000);
-        timerElement.textContent = `Demo: ${seconds}s remaining`;
-        timerElement.style.backgroundColor = remaining < 10000 ? 'rgba(255,165,0,0.7)' : 'rgba(0,0,0,0.7)';
+        // Convert to minutes and seconds
+        const minutes = Math.floor(remaining / 60000);
+        const seconds = Math.floor((remaining % 60000) / 1000);
+        timerElement.textContent = `Demo: ${minutes}m ${seconds}s remaining`;
+        timerElement.style.backgroundColor = remaining < 60000 ? 'rgba(255,165,0,0.7)' : 'rgba(0,0,0,0.7)';
         
         requestAnimationFrame(updateTimer);
     }
     
     updateTimer();
 }
-
 
 
 
