@@ -90,10 +90,11 @@ function showPermanentExpiryMessage() {
     // Profile image
     const profile = document.createElement('div');
     profile.innerHTML = `
-   <div style="width:100px; height:100px; border-radius:50%; border:3px solid #4CAF50; overflow:hidden; display:flex; align-items:flex-start; justify-content:center; margin: 0 auto;">
+<div style="width:100px; height:100px; border-radius:50%; border:3px solid #4CAF50; overflow:hidden; display:flex; align-items:flex-start; justify-content:center; margin: 0 auto;">
   <img src="./img/profilepic.jpg" 
-       style="width:100px; height:100px; object-fit:cover; margin-top:0px;">
+       style="width:100px; height:100px; object-fit:cover; margin-top:10px;">
 </div>
+
 
 
      <h2 style="margin:0;color:#4CAF50;font-size:24px;">Hemant Borana</h2>
