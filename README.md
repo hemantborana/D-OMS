@@ -211,7 +211,6 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Product Selection** with same product database as main system
 - **Automatic Item Details** - Size, color, and specifications auto-populated
 - **Shopping Cart Functionality** with add/remove/modify capabilities
-- **Real-time Stock Validation** preventing out-of-stock orders
 - **Case-Sensitive Captcha Security** to reduce unintended orders and ensure order authenticity
 
 **Order Processing Flow:**
@@ -225,13 +224,11 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Complete Order History** with status tracking
 - **Order Details View** showing comprehensive order information
 - **Status Updates** reflecting real-time processing stages
-- **Delivery Tracking** with timeline visibility
 
 #### **Real-Time Stock Inquiry**
 - **Live Inventory Data** synchronized with main distributor database
 - **Product Availability** with exact quantity visibility
 - **Size & Color Variants** complete stock information
-- **Search & Filter** capabilities for quick product finding
 
 ### **Integration with Main D-OMS System**
 
@@ -248,7 +245,6 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Automated Data Flow** - Retailer orders automatically feed analytics pipeline
 - **Reduced Manual Entry** - Eliminates phone/email order processing
 - **Enhanced Order Accuracy** - Digital validation reduces errors
-- **Complete Audit Trail** - Full tracking from retailer submission to delivery
 
 ### **Technical Architecture Integration**
 
