@@ -224,7 +224,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Delivery Tracking** with timeline visibility
 
 #### **Real-Time Stock Inquiry**
-![Retailer Stock]
+![Retailer Stock].(img/retailer-stock.png)
 - **Live Inventory Data** synchronized with main distributor database
 - **Product Availability** with exact quantity visibility
 - **Size & Color Variants** complete stock information
