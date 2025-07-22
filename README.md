@@ -11,7 +11,7 @@ Complete distributor order management with advanced analytics dashboard
 ## 2. **[Retailer Portal](#-retailer-ordering-system---complete-b2b-ecosystem)**
 B2B ordering system with seamless integration and approval workflows
 
-**Note:** *Retailer Portal source code contains sensitive business data and is not publicly available. Comprehensive screenshots and technical details provided below.*
+**Note:** *Retailer Portal source code contains sensitive business information including actual product catalogs, brand details, customer login credentials, and API keys, and is therefore not publicly available. However, comprehensive screenshots and technical implementation details are provided below to demonstrate the complete system functionality and integration capabilities.*
 
 ---
 
@@ -32,7 +32,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ## 📊 ANALYTICS DASHBOARD - Business Intelligence Core
 
-> **As an aspiring Data Analyst**, the Analytics Dashboard represents the crown jewel of this project - transforming operational data into actionable business intelligence. The system has been managing real business operations for **12+ months**, and the analytics dashboard processes **30 days of demo data** to demonstrate comprehensive data analysis capabilities and showcase advanced analytics implementation.
+> > **As an aspiring Data Analyst**, the Analytics Dashboard represents the crown jewel of this project - transforming operational data into actionable business intelligence. The **live production system** has been managing real business operations for **12+ months** with actual product catalogs, customer data, and other records. For demonstration purposes, this public version uses a **30-day demo dataset** with sample product names, colors, sizes, and customer information to showcase the complete analytics capabilities without exposing sensitive business data.
 
 ![Analytics Navigation](img/s3.png)
 
@@ -298,15 +298,21 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Export Capabilities** - PDF and Excel report generation
 - **Real-time KPI Calculation** - Live business metrics and performance indicators
 
-### **Production Features:**
-- **Telegram Bot API** - Automated notifications and document sharing
-- **WebPush Notifications** - Real-time alerts for critical business events
-- **API Endpoints** - RESTful services for data access and manipulation
-- **SSL Security** - Secure HTTPS connections for all communications
-- **Backup Systems** - Automated data backup and recovery procedures
+### **Demo Version Limitations**
+**Features Available in Production but Removed from Demo:**
+- **Telegram Bot Integration** - Automated notifications and document sharing (API keys removed)
+- **WebPush Notifications** - Real-time alerts for critical business events (service keys removed)
+- **Backup Systems** - Automated data backup and recovery (contains sensitive endpoints)
+- **Advanced API Endpoints** - Full RESTful services (authentication keys removed)
+- **Real Product Catalog** - Actual brand names, detailed specifications, and pricing data
+- **Live Customer Database** - Genuine retailer login credentials and business relationships
 
-### **Additional Features Available in Demo:**
-- **File Processing** - PDF generation and document management
+**Demo Dataset Specifications:**
+- **30-Day Sample Period** with representative transaction patterns
+- **Anonymized Product Names** (e.g., "Product SKU-003" instead of actual brand/model)
+- **Generic Customer References** protecting real business relationships
+- **Sample Color/Size Variants** demonstrating categorization without revealing inventory details
+- **Simulated Order Flows** showcasing complete system workflows with demo data
 
 ### **Hosting & Deployment**
 - **GitHub Version Control** - Complete codebase management and CD
