@@ -492,14 +492,6 @@ function sortParties() {
   
       // Send Telegram message
      
-      )}`;
-  
-      fetch(url)
-        .then((response) => response.json())
-        .then((data) => console.log("Telegram message sent:", data))
-        .catch((error) =>
-          console.error("Error sending Telegram message:", error)
-        );
     }
     partySearch.value = fullPartyName;
     partyList.style.display = "none";
