@@ -491,11 +491,7 @@ function sortParties() {
       firebase.database().ref("activityLogs").push(activityLog);
   
       // Send Telegram message
-      const chatId = "-4527298165";
-      const botToken = "7401966895:AAFu7gNrOPhMXJQNJTRk4CkK4TjRr09pxUs";
-      const message = `${username}: created new party ${fullPartyName}`;
-      const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
-        message
+     
       )}`;
   
       fetch(url)
@@ -822,52 +818,7 @@ function playAdvancedConfirmationSound() {
 } 
 
 //----------------// Notifications
-function sendTelegramNotification(partyName, totalQuantity, orderNumber, imgData) {
-  const token = "6489265710:AAFx6-OaL09SpByMPyfiQBmgetvbtx0InyI";
-  const chatId = "-1002170737027";
-  const message = `New order received:\nParty Name: ${partyName}\nTotal Quantity: ${totalQuantity}\nOrder Number: ${orderNumber}`;
 
-  // First, send the text message
-  fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text: message,
-    }),
-  })
-    .then((response) => response.json())
-    .then((data) => console.log("Telegram text notification sent:", data))
-    .catch((error) =>
-      console.error("Error sending Telegram text notification:", error)
-    );
-
-  // Then, send the image
-  // Convert base64 image data to blob
-  const byteCharacters = atob(imgData.split(',')[1]);
-  const byteNumbers = new Array(byteCharacters.length);
-  for (let i = 0; i < byteCharacters.length; i++) {
-    byteNumbers[i] = byteCharacters.charCodeAt(i);
-  }
-  const byteArray = new Uint8Array(byteNumbers);
-  const blob = new Blob([byteArray], {type: 'image/png'});
-
-  // Create FormData and append the image
-  const formData = new FormData();
-  formData.append('chat_id', chatId);
-  formData.append('photo', blob, 'order_summary.png');
-
-  // Send the image
-  fetch(`https://api.telegram.org/bot${token}/sendPhoto`, {
-    method: 'POST',
-    body: formData
-  })
-    .then(response => response.json())
-    .then(data => console.log("Telegram image sent:", data))
-    .catch(error => console.error("Error sending Telegram image:", error));
-}
 
 
 //------------ Item and Cart Management
