@@ -305,27 +305,27 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ### **Large Dataset Performance Optimization**
 **Challenge:** Processing analytics for 150+ products with 12+ months of transactional data <br>
-**Solution:** Implemented efficient data aggregation algorithms and intelligent caching strategies
-**Result:** Achieved sub-second chart rendering with smooth real-time updates
+**Solution:** Implemented efficient data aggregation algorithms and intelligent caching strategies <br>
+**Result:** Achieved sub-second chart rendering with smooth real-time updates 
 
 ### **Real-time Analytics Processing**
-**Challenge:** Providing live business intelligence while maintaining system performance
-**Solution:** Developed smart data processing with IndexedDB caching and optimized Firebase queries
+**Challenge:** Providing live business intelligence while maintaining system performance <br>
+**Solution:** Developed smart data processing with IndexedDB caching and optimized Firebase queries <br>
 **Result:** Real-time insights delivered without impacting operational system performance
 
 ### **Complex Business Logic Integration**
-**Challenge:** Converting diverse business requirements into meaningful analytics and workflows
-**Solution:** Understanding real business operations to identify key performance indicators and critical processes
+**Challenge:** Converting diverse business requirements into meaningful analytics and workflows <br>
+**Solution:** Understanding real business operations to identify key performance indicators and critical processes <br>
 **Result:** Intuitive system reflecting actual business needs with actionable insights
 
 ### **Multi-dimensional Data Relationships**
-**Challenge:** Analyzing complex relationships between products, customers, orders, and time dimensions
-**Solution:** Created sophisticated data processing pipelines for comprehensive analysis
+**Challenge:** Analyzing complex relationships between products, customers, orders, and time dimensions <br>
+**Solution:** Created sophisticated data processing pipelines for comprehensive analysis <br>
 **Result:** Complete business intelligence covering all operational aspects and relationships
 
 ### **Integrated B2B System Development**
-**Challenge:** Creating seamless integration between retailer portal and main distributor system
-**Solution:** Developed unified database architecture with role-based access and automated approval workflows
+**Challenge:** Creating seamless integration between retailer portal and main distributor system <br>
+**Solution:** Developed unified database architecture with role-based access and automated approval workflows <br>
 **Result:** Complete digital ecosystem eliminating manual order processing while maintaining security and control
 
 ---
