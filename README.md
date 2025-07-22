@@ -65,6 +65,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ##### 3. **Product Performance Intelligence (150+ Products)**
 ![Product Analytics](img/s5.png)
+<br>
 **Comprehensive Product Analytics:**
 - **Demand Ranking System** across entire 150+ product catalog by total quantity
 - **Frequency Analysis** revealing most frequently ordered items
@@ -81,6 +82,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ##### 4. **Customer Behavior Analytics & Segmentation**
 ![Customer Analytics](img/s6.png)
+<br>
 **Advanced Customer Intelligence:**
 - **Customer Performance Ranking** by order volume and frequency analysis
 - **Behavioral Segmentation** identifying 3 distinct customer types with different ordering patterns
@@ -90,6 +92,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ##### 5. **Inventory Intelligence & Optimization**
 ![Inventory Analytics](img/s7.png)
+<br>
 **Strategic Stock Management Analytics:**
 - **Demand vs Stock Analysis** comparing actual demand with inventory levels
 - **Color Popularity Trends** revealing 60% seasonal variation in preferences
