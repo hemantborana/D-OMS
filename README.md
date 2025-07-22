@@ -17,15 +17,16 @@ B2B ordering system with seamless integration and approval workflows
 
 **Real-World Production System | D-OMS: 12+ Months Active | Retailer Portal: 3+ Months Active | Data-Driven Business Intelligence**
 
-![D-OMS Dashboard](img/s1.png)
-
----
-
 ## 🎯 Project Overview
 
 Distributor-Order Management System is a **production-ready, full-stack Order Management System** with integrated **Advanced Analytics Dashboard**, developed for a family distribution business. This system has been successfully managing real business operations for over **12 months**, processing daily orders and providing comprehensive **business intelligence** through data analytics.
 
 **Key Achievement:** Transformed traditional paper-based operations into a fully digital, data-driven business intelligence platform processing **150+ products** across **50+ retail parties** with complete analytical insights and **integrated B2B ordering ecosystem**.
+
+---
+
+![D-OMS Dashboard](img/s1.png)
+
 
 ---
 
