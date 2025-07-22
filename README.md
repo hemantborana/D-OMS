@@ -49,7 +49,8 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ##### 2. **Advanced Order Analytics**
 ![Order Analytics](img/s4.png)
--**Strategic Order Intelligence:**
+<br>
+**Strategic Order Intelligence:**
 - **30-Day Trend Analysis** revealing seasonal patterns and peak periods
 - **Order Status Distribution** across processing stages (pending, billing, sent)
 - **Processing Efficiency Metrics** identifying workflow bottlenecks
