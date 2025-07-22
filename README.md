@@ -1,13 +1,21 @@
 # D-OMS: Complete Order Management System with Advanced Analytics
 
 **🏢 INTEGRATED BUSINESS ECOSYSTEM - TWO SYNCHRONIZED APPLICATIONS:**
-1. **D-OMS Main System** - Complete distributor order management with advanced analytics dashboard
-2. **[Retailer Portal](#-retailer-ordering-system---complete-b2b-ecosystem)** - B2B ordering system with seamless integration and approval workflows
 
-[![Live Application](https://img.shields.io/badge/Live-Application-blue?style=for-the-badge)](https://hemantborana.github.io/D-OMS/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/hemantborana/D-OMS)
+## 1. **[D-OMS Main System](#-complete-order-management-system)**
+Complete distributor order management with advanced analytics dashboard
 
-**Real-World Production System | 12+ Months Active | Data-Driven Business Intelligence**
+[![Live D-OMS Application](https://img.shields.io/badge/Live-D--OMS%20Application-blue?style=for-the-badge)](https://hemantborana.github.io/D-OMS/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-D--OMS%20Source-black?style=for-the-badge&logo=github)](https://github.com/hemantborana/D-OMS)
+
+## 2. **[Retailer Portal](#-retailer-ordering-system---complete-b2b-ecosystem)**
+B2B ordering system with seamless integration and approval workflows
+
+**Note:** *Retailer Portal source code contains sensitive business data and is not publicly available. Comprehensive screenshots and technical details provided below.*
+
+---
+
+**Real-World Production System | D-OMS: 12+ Months Active | Retailer Portal: 3+ Months Active | Data-Driven Business Intelligence**
 
 ![D-OMS Dashboard](img/s1.png)
 
