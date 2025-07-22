@@ -2,8 +2,7 @@
 
 **🏢 INTEGRATED BUSINESS ECOSYSTEM - TWO SYNCHRONIZED APPLICATIONS:**
 1. **D-OMS Main System** - Complete distributor order management with advanced analytics dashboard
-2. **Retailer Portal** - B2B ordering system with seamless integration and approval workflows
-
+2. **[Retailer Portal](#-retailer-ordering-system---complete-b2b-ecosystem)** - B2B ordering system with seamless integration and approval workflows
 
 [![Live Application](https://img.shields.io/badge/Live-Application-blue?style=for-the-badge)](https://hemantborana.github.io/D-OMS/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/hemantborana/D-OMS)
