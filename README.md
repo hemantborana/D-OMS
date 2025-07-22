@@ -150,8 +150,6 @@ KA-OMS is a **production-ready, full-stack Order Management System** with integr
 - **Product Performance Optimization** increasing overall business efficiency
 - **Inventory Intelligence** reducing carrying costs and waste
 
-![Business Impact Dashboard](img/s8.png)
-
 ---
 
 ## 🏗️ Complete Order Management System
