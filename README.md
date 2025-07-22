@@ -11,7 +11,7 @@ Complete distributor order management with advanced analytics dashboard
 ## 2. **[Retailer Portal](#-retailer-ordering-system---complete-b2b-ecosystem)**
 B2B ordering system with seamless integration and approval workflows
 
-**Note:** *Retailer Portal source code contains sensitive business information including actual product catalogs, brand details, customer login credentials, and API keys, and is therefore not publicly available. However, comprehensive screenshots and technical implementation details are provided below to demonstrate the complete system functionality and integration capabilities.*
+**Note:** *The Retailer Portal contains sensitive business information and is not available for public demo. Comprehensive screenshots and technical implementation details are provided below to demonstrate the complete system functionality and integration capabilities.*
 
 ---
 
@@ -19,9 +19,11 @@ B2B ordering system with seamless integration and approval workflows
 
 ## 🎯 Project Overview
 
-Distributor-Order Management System is a **production-ready, full-stack Order Management System** with integrated **Advanced Analytics Dashboard**, developed for a family distribution business. This system has been successfully managing real business operations for over **12 months**, processing daily orders and providing comprehensive **business intelligence** through data analytics.
+D-OMS is a **production-ready, full-stack Order Management System** with integrated **Advanced Analytics Dashboard**, developed for our family distribution business. The **live production system** has been successfully managing real business operations for over **12 months**, processing daily orders and providing comprehensive business intelligence.
 
-**Key Achievement:** Transformed traditional paper-based operations into a fully digital, data-driven business intelligence platform processing **150+ products** across **50+ retail parties** with complete analytical insights and **integrated B2B ordering ecosystem**.
+**This demo version** showcases the complete system functionality using a **30-day anonymized dataset** where all sensitive information (actual product names, customer details, brand information, API keys) has been removed or replaced with generic equivalents to protect business confidentiality.
+
+**Key Achievement:** Transformed traditional paper-based operations into a fully digital, data-driven business platform. The production system processes **150+ products** across **50+ retail parties** with complete analytical insights.
 
 ---
 ## 🏪 D-OMS - Complete Order Management System
@@ -32,7 +34,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ## 📊 ANALYTICS DASHBOARD - Business Intelligence Core
 
-> > **As an aspiring Data Analyst**, the Analytics Dashboard represents the crown jewel of this project - transforming operational data into actionable business intelligence. The **live production system** has been managing real business operations for **12+ months** with actual product catalogs, customer data, and other records. For demonstration purposes, this public version uses a **30-day demo dataset** with sample product names, colors, sizes, and customer information to showcase the complete analytics capabilities without exposing sensitive business data.
+> **Analytics Dashboard - Business Intelligence Core**: This dashboard transforms operational data into actionable business intelligence. The **live production system** manages real business operations with actual product catalogs and customer data. **This demo version** uses a **30-day anonymized dataset** with generic product names (e.g., "Product SKU-003"), sample customer references, and modified brand details to showcase complete analytics capabilities while protecting sensitive business information.
 
 ![Analytics Navigation](img/s3.png)
 
@@ -140,22 +142,37 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 
 ---
 
-## 💼 Business Impact & Quantified Results
+## 💼 Business Impact & System Capabilities
 
-### 📈 Operational Excellence Achieved
+### 📈 Operational Transformation Achieved
 
-**Digital Transformation Success:**
-- **100% Paperless Operations** eliminating manual processes entirely
-- **50% Reduction** in average order processing time
-- **30% Improvement** in stock availability through predictive analytics
-- **Zero Error** in billing through automated validation systems
-- **Real-Time Decision Making** enabled through live analytics dashboard
+**Digital Transformation in Production System:**
+- **100% Paperless Operations** - Eliminated manual paper-based processes
+- **~50% Reduction** in order processing time (estimated based on manual vs digital workflows)
+- **Automated Validation Systems** - Significantly reduced billing errors
+- **Real-Time Decision Making** - Enabled through live analytics dashboard
 
-**Data-Driven Strategic Insights (Analytics Demonstration):**
-- **Business Pattern Recognition** through comprehensive 30-day data analysis
-- **Customer Segmentation** showcasing advanced behavioral analysis capabilities
-- **Product Performance Intelligence** demonstrating data-driven optimization strategies
-- **Operational Analytics** showcasing business intelligence and decision support systems
+### **Analytics Capabilities Demonstrated (Using Demo Data)**
+
+**Product Performance Analysis:**
+- **Demand Ranking** - Identify top-performing products from catalog
+- **Frequency Analysis** - Track most frequently ordered items
+- **Seasonal Pattern Recognition** - Color and size preference trends
+- **Performance Matrix** - Quantity vs frequency relationships
+
+**Customer Behavior Analytics:**
+- **Customer Segmentation** - Behavioral pattern analysis tools
+- **Order Pattern Recognition** - Frequency and volume analysis
+- **Product Preference Mapping** - Customer-specific demand insights
+- **Performance Ranking** - Volume and frequency-based customer analysis
+
+**Operational Intelligence:**
+- **Processing Efficiency** - Workflow bottleneck identification
+- **Order Status Distribution** - Processing stage analysis
+- **Time-Series Analysis** - Trend identification capabilities
+- **Inventory Intelligence** - Stock optimization recommendations
+
+**Note:** *All insights shown are generated from the 30-day demo dataset to demonstrate analytics capabilities. Production system generates similar insights using real business data.*
 
 ---
 
@@ -298,14 +315,19 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 - **Export Capabilities** - PDF and Excel report generation
 - **Real-time KPI Calculation** - Live business metrics and performance indicators
 
-### **Demo Version Limitations**
-**Features Available in Production but Removed from Demo:**
-- **Telegram Bot Integration** - Automated notifications and document sharing (API keys removed)
-- **WebPush Notifications** - Real-time alerts for critical business events (service keys removed)
-- **Backup Systems** - Automated data backup and recovery (contains sensitive endpoints)
-- **Advanced API Endpoints** - Full RESTful services (authentication keys removed)
-- **Real Product Catalog** - Actual brand names, detailed specifications, and pricing data
-- **Live Customer Database** - Genuine retailer login credentials and business relationships
+### **Demo vs Production System**
+**What's Available in This Demo:**
+- **Complete Order Management Workflow** - Full system functionality
+- **Advanced Analytics Dashboard** - All analytics features with demo data
+- **User Management System** - Complete access control features
+- **All Core Features** - Order creation, billing, tracking, and reporting
+
+**Production-Only Features (Removed from Demo):**
+- **Telegram Bot Integration** - Automated notifications (API keys removed)
+- **WebPush Notifications** - Real-time alerts (service keys removed)
+- **Retailer Portal** - B2B ordering system (contains sensitive credentials)
+- **Real Business Data** - Actual product catalogs, customer information, and pricing
+- **Advanced API Integrations** - Third-party services with authentication keys
 
 **Demo Dataset Specifications:**
 - **30-Day Sample Period** with representative transaction patterns
