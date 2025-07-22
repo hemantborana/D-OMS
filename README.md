@@ -24,7 +24,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 **Key Achievement:** Transformed traditional paper-based operations into a fully digital, data-driven business intelligence platform processing **150+ products** across **50+ retail parties** with complete analytical insights and **integrated B2B ordering ecosystem**.
 
 ---
-
+## 🏪 D-OMS - Complete Order Management System
 ![D-OMS Dashboard](img/s1.png)
 
 
