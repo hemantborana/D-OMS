@@ -288,7 +288,6 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 ### **Production Features:**
 - **Telegram Bot API** - Automated notifications and document sharing
 - **WebPush Notifications** - Real-time alerts for critical business events
-- **Email Integration** - Automated report distribution and notifications
 - **API Endpoints** - RESTful services for data access and manipulation
 - **SSL Security** - Secure HTTPS connections for all communications
 - **Backup Systems** - Automated data backup and recovery procedures
@@ -305,7 +304,7 @@ Distributor-Order Management System is a **production-ready, full-stack Order Ma
 ## 🚀 Technical Challenges Overcome
 
 ### **Large Dataset Performance Optimization**
-**Challenge:** Processing analytics for 150+ products with 12+ months of transactional data
+**Challenge:** Processing analytics for 150+ products with 12+ months of transactional data <br>
 **Solution:** Implemented efficient data aggregation algorithms and intelligent caching strategies
 **Result:** Achieved sub-second chart rendering with smooth real-time updates
 
