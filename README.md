@@ -2,7 +2,7 @@
 
 **🏢 INTEGRATED BUSINESS ECOSYSTEM - TWO SYNCHRONIZED APPLICATIONS:**
 
-## 1. **[D-OMS Main System](#d-oms---complete-order-management-system)**
+## 1. **[D-OMS Main System](#-d-oms---complete-order-management-system)**
 Complete distributor order management with advanced analytics dashboard
 
 [![Live D-OMS Application](https://img.shields.io/badge/Live-D--OMS%20Application-blue?style=for-the-badge)](https://hemantborana.github.io/D-OMS/)
